@@ -51,7 +51,7 @@
     }
     .about-block {
       background: url("../images/about_photo_mobile.jpg") no-repeat center top!important;
-      min-height: 549px!important;
+      min-height: 475px!important;
       margin-top: 0!important;
     }
   }
@@ -72,6 +72,14 @@
     .card-footer {
       width: 100%!important;
     }
+  }
+  .card-before {
+    left: 23% !important;
+    font-size: 16px!important;
+  }
+  .card-after {
+    left: 71% !important;
+    font-size: 16px!important;
   }
   .contacts {
     background: none!important;
@@ -125,6 +133,14 @@
   }
   .btn-primary {
     padding: 18px 30px!important;
+  }
+  .card-before {
+    left: 23% !important;
+    font-size: 14px!important;
+  }
+  .card-after {
+    left: 71% !important;
+    font-size: 14px!important;
   }
   card {
     min-height: 626px;
