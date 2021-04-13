@@ -1,0 +1,141 @@
+@media (max-width: 992px) {
+  h1 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  h2 {
+  font-size: 32px;
+    line-height: 46px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .info-desc {
+    font-size: 24px!important;
+    line-height: 30px!important;
+  }
+  .offer-desc {
+    font-size: 18px!important;
+    line-height: 30px!important;
+  }
+  .pt-120 {
+    padding-top: 60px;
+  }
+  .pb-120 {
+    padding-bottom: 60px;
+  }
+  .mt-120 {
+    margin-top: 60px;
+  }
+  .mb-120 {
+    margin-bottom: 60px;
+  }
+  .owl-carousel {
+    .owl-nav button.owl-prev {
+      display: none;
+    }
+    .owl-nav button.owl-next {
+      display: none;
+    }
+  }
+  .about {
+    background: none!important;
+    .about-desc {
+      font-size: 16px!important;
+      line-height: 26px!important;
+    }
+    .about-block {
+      background: url("../images/about_photo_mobile.jpg") no-repeat center top!important;
+      min-height: 549px!important;
+      margin-top: 0!important;
+    }
+  }
+  .card {
+    min-height: 626px;
+    .card-body {
+      padding: 30px 16px!important;
+      background-color: transparent!important;
+      .card-title {
+        font-size: 20px!important;
+        line-height: 26px!important;
+      }
+      .card-text {
+        font-size: 14px!important;
+        line-height: 26px!important;
+      }
+    }
+    .card-footer {
+      width: 100%!important;
+    }
+  }
+  .contacts {
+    background: none!important;
+    .contacts-desc {
+      font-size: 18px!important;
+      line-height: 30px!important;
+    }
+    .contacts-block {
+      background-color: $beige-color;
+      padding: 30px;
+      margin-top: 0;
+    }
+  }
+  footer {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .info-desc {
+    font-size: 24px!important;
+    line-height: 30px!important;
+  }
+  .offer-desc {
+    font-size: 18px!important;
+    line-height: 30px!important;
+  }
+  .about-desc {
+    font-size: 14px!important;
+    line-height: 26px!important;
+  }
+  .advantages-list li {
+    font-size: 14px!important;
+    line-height: 26px!important;
+  }
+  .btn-primary {
+    padding: 18px 30px!important;
+  }
+  card {
+    min-height: 626px;
+  }
+  .modal-content {
+    padding: 16px!important;
+  }
+  .modal-body {
+    .form-control {
+      font-size: 14px!important;
+      padding: 10px 16px!important;
+    }
+  }
+}

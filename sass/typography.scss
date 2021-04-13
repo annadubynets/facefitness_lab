@@ -1,0 +1,156 @@
+@import "base/variables";
+@import "base/mixins";
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-SemiBold.eot');
+  src: url('../fonts/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+  url('../fonts/OpenSans-SemiBold.woff') format('woff'),
+  url('../fonts/OpenSans-SemiBold.ttf') format('truetype'),
+  url('../fonts/OpenSans-SemiBold.svg#OpenSans-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.eot');
+  src: url('../fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.ttf') format('truetype'),
+  url('../fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?p4eneq');
+  src:  url('../fonts/icomoon.eot?p4eneq#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?p4eneq') format('truetype'),
+  url('../fonts/icomoon.woff?p4eneq') format('woff'),
+  url('../fonts/icomoon.svg?p4eneq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-f-brands:before {
+  content: "\e901";
+}
+.icon-instagram-brands:before {
+  content: "\e902";
+}
+.icon-phone-alt-solid:before {
+  content: "\e904";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+
+
+.font-size-xxs {
+  font-size: $font-size-xxs;
+}
+
+.font-size-xs {
+  font-size: $font-size-xs;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.font-size-md {
+  font-size: $font-size-md;
+}
+
+.font-size-lg {
+  font-size: $font-size-lg;
+}
+
+.font-size-xl {
+  font-size: $font-size-xl;
+}
+
+.font-size-xxl {
+  font-size: $font-size-xxl;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: $font-size-xxl;
+  line-height: 76px;
+  color: $black-color;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: $font-size-xl;
+  line-height: 56px;
+  color: $pink-color;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: $pink-color;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  color: $pink-color;
+}
+
+.text-pink {
+  color: $pink-color;
+}
+
+.bg-beige {
+  background-color: $beige-color;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.mb-170 {
+  margin-bottom: 170px;
+}

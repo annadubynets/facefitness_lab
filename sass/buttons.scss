@@ -1,0 +1,27 @@
+@import "base/variables";
+@import "base/mixins";
+
+// ------------------------
+// Bootstrap buttons
+// ------------------------
+
+.btn:active, .btn:focus{
+  outline: none!important;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: linear-gradient(89.07deg, #E19999 4.86%, rgba(206, 117, 117, 0) 92.95%), #CE7575;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  border: none;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  padding: 24px 40px;
+  &:hover, &:active, &:focus {
+    background: linear-gradient(89.07deg, #E19999 4.86%, rgba(206, 117, 117, 0) 92.95%), #CE7575;
+    box-shadow: 0 4px 10px 0 rgba(226, 142, 127, 0.75);
+  }
+}
