@@ -128,6 +128,10 @@ h4 {
   padding-top: 120px;
 }
 
+.pt-160 {
+  padding-top: 160px;
+}
+
 .pb-120 {
   padding-bottom: 120px;
 }
@@ -138,10 +142,6 @@ h4 {
 
 .mb-120 {
   margin-bottom: 120px;
-}
-
-.mb-170 {
-  margin-bottom: 170px;
 }
 
 .btn:active, .btn:focus {
@@ -188,12 +188,16 @@ h4 {
 
   .info-desc {
     font-size: 24px !important;
-    line-height: 30px !important;
+    line-height: 36px !important;
   }
 
   .offer-desc {
     font-size: 18px !important;
     line-height: 30px !important;
+  }
+
+  .header-desc {
+    margin: 12px 0 25px !important;
   }
 
   .pt-120 {
@@ -210,6 +214,31 @@ h4 {
 
   .mb-120 {
     margin-bottom: 60px;
+  }
+
+  .hero-mobile {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: url(../images/hero_mobile.jpg) no-repeat center center;
+    min-height: 420px;
+  }
+
+  .hero-mobile-decor {
+    background: #ECE1D5 !important;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+  }
+
+  .offer {
+    background: #ECE1D5 !important;
+    padding: 24px 0 !important;
+  }
+
+  .navbar {
+    padding-bottom: 30px !important;
+    margin-bottom: 0 !important;
   }
 
   .owl-carousel .owl-nav button.owl-prev {
@@ -249,16 +278,6 @@ h4 {
   }
   .card .card-footer {
     width: 100% !important;
-  }
-
-  .card-before {
-    left: 23% !important;
-    font-size: 16px !important;
-  }
-
-  .card-after {
-    left: 71% !important;
-    font-size: 16px !important;
   }
 
   .contacts {
@@ -321,16 +340,6 @@ h4 {
 
   .btn-primary {
     padding: 18px 30px !important;
-  }
-
-  .card-before {
-    left: 23% !important;
-    font-size: 14px !important;
-  }
-
-  .card-after {
-    left: 71% !important;
-    font-size: 14px !important;
   }
 
   card {
@@ -459,6 +468,10 @@ h4 {
   z-index: -1;
 }
 
+.offer {
+  background: transparent;
+}
+
 .advantages-list {
   list-style-type: none;
 }
@@ -541,24 +554,6 @@ h4 {
 }
 .testimonials .card-body {
   padding: 0 10px;
-}
-.testimonials .card-before {
-  position: absolute;
-  bottom: 40px;
-  left: 62%;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 36px;
-  color: #ffffff;
-}
-.testimonials .card-after {
-  position: absolute;
-  bottom: 40px;
-  left: 85%;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 36px;
-  color: #ffffff;
 }
 .testimonials .owl-carousel .owl-nav button.owl-next span {
   display: none;

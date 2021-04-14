@@ -122,6 +122,10 @@
   z-index: -1;
 }
 
+.offer {
+  background: transparent;
+}
+
 .advantages-list {
   list-style-type: none;
   li {
@@ -209,24 +213,6 @@
   }
   .card-body {
     padding: 0 10px;
-  }
-  .card-before {
-    position: absolute;
-    bottom: 40px;
-    left: 62%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 36px;
-    color: $white-color;
-  }
-  .card-after {
-    position: absolute;
-    bottom: 40px;
-    left: 85%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 36px;
-    color: $white-color;
   }
   .owl-carousel {
     .owl-nav button.owl-next span {

@@ -17,11 +17,14 @@
   }
   .info-desc {
     font-size: 24px!important;
-    line-height: 30px!important;
+    line-height: 36px!important;
   }
   .offer-desc {
     font-size: 18px!important;
     line-height: 30px!important;
+  }
+  .header-desc {
+    margin: 12px 0 25px!important;
   }
   .pt-120 {
     padding-top: 60px;
@@ -34,6 +37,27 @@
   }
   .mb-120 {
     margin-bottom: 60px;
+  }
+  .hero-mobile {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background: url(../images/hero_mobile.jpg) no-repeat center center;
+    min-height: 420px;
+  }
+  .hero-mobile-decor {
+    background: $beige-color!important;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+  }
+  .offer {
+    background: $beige-color!important;
+    padding: 24px 0!important;
+  }
+  .navbar {
+    padding-bottom: 30px!important;
+    margin-bottom: 0!important;
   }
   .owl-carousel {
     .owl-nav button.owl-prev {
@@ -72,14 +96,6 @@
     .card-footer {
       width: 100%!important;
     }
-  }
-  .card-before {
-    left: 23% !important;
-    font-size: 16px!important;
-  }
-  .card-after {
-    left: 71% !important;
-    font-size: 16px!important;
   }
   .contacts {
     background: none!important;
@@ -133,14 +149,6 @@
   }
   .btn-primary {
     padding: 18px 30px!important;
-  }
-  .card-before {
-    left: 23% !important;
-    font-size: 14px!important;
-  }
-  .card-after {
-    left: 71% !important;
-    font-size: 14px!important;
   }
   card {
     min-height: 626px;

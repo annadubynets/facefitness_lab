@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08372c68-dc4f-4a6a-bb32-4b6c045f11dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about_photo_mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/about_photo_mobile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diplom_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/diplom_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618338969698</updated>
       <workItem from="1618338970717" duration="252000" />
-      <workItem from="1618339225073" duration="1748000" />
+      <workItem from="1618339225073" duration="5678000" />
     </task>
     <servers />
   </component>
