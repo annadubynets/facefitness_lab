@@ -3,6 +3,7 @@ $('.testimonials .owl-carousel').owlCarousel({
     margin:10,
     nav:true,
     dots:true,
+    adaptiveHeight: true,
     responsive:{
         0:{
             items:1
