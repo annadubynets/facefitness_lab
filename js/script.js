@@ -1,4 +1,4 @@
-$('.testimonials .owl-carousel').owlCarousel({
+var owl = $('.testimonials .owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -9,7 +9,19 @@ $('.testimonials .owl-carousel').owlCarousel({
             items:1
         },
         1000:{
-            items:1
+            items:2
         }
     }
+});
+
+owl.on('resized.owl.carousel', function(event) {
+    $.fn.matchHeight._update();
+})
+
+$(function() {
+    $('.testimonials .owl-item').matchHeight({ });
+});
+
+$(function() {
+    $('.testimonials .owl-item').matchHeight({ });
 });
