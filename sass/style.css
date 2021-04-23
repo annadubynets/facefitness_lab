@@ -619,6 +619,7 @@ h4 {
 .testimonials .owl-carousel .owl-dots {
   text-align: center;
   position: relative;
+  padding-top: 24px;
 }
 .testimonials .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #CE7575;
