@@ -258,12 +258,12 @@
       }
     }
     .owl-dots .owl-dot span {
-      width: 16px;
-      height: 16px;
+      width: 12px;
+      height: 12px;
       border: 2px solid $pink-color;
       border-radius: 50%;
       display: none;
-      margin: 0 10px;
+      margin: 0 8px;
       @include max-screen(992px) {
         display: inline-block;
       }

@@ -346,6 +346,11 @@ h4 {
     padding: 18px 30px !important;
   }
 
+  .testimonials-text {
+    font-size: 14px !important;
+    line-height: 26px !important;
+  }
+
   .courses card {
     min-height: 626px;
   }
@@ -604,12 +609,12 @@ h4 {
   }
 }
 .testimonials .owl-carousel .owl-dots .owl-dot span {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border: 2px solid #CE7575;
   border-radius: 50%;
   display: none;
-  margin: 0 10px;
+  margin: 0 8px;
 }
 @media screen and (max-width: 992px) {
   .testimonials .owl-carousel .owl-dots .owl-dot span {
