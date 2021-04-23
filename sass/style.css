@@ -265,22 +265,22 @@ h4 {
     margin-top: 0 !important;
   }
 
-  .card {
+  .courses .card {
     min-height: 626px;
     background-color: transparent !important;
   }
-  .card .card-body {
+  .courses .card .card-body {
     padding: 30px 16px !important;
   }
-  .card .card-body .card-title {
+  .courses .card .card-body .card-title {
     font-size: 20px !important;
     line-height: 26px !important;
   }
-  .card .card-body .card-text {
+  .courses .card .card-body .card-text {
     font-size: 14px !important;
     line-height: 26px !important;
   }
-  .card .card-footer {
+  .courses .card .card-footer {
     width: 100% !important;
   }
 
@@ -346,7 +346,7 @@ h4 {
     padding: 18px 30px !important;
   }
 
-  card {
+  .courses card {
     min-height: 626px;
   }
 
