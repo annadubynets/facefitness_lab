@@ -21,7 +21,3 @@ owl.on('resized.owl.carousel', function(event) {
 $(function() {
     $('.testimonials .owl-item').matchHeight({ });
 });
-
-$(function() {
-    $('.testimonials .owl-item').matchHeight({ });
-});

@@ -613,18 +613,13 @@ h4 {
   height: 12px;
   border: 2px solid #CE7575;
   border-radius: 50%;
-  display: none;
+  display: inline-block;
   margin: 0 8px;
-}
-@media screen and (max-width: 992px) {
-  .testimonials .owl-carousel .owl-dots .owl-dot span {
-    display: inline-block;
-  }
 }
 .testimonials .owl-carousel .owl-dots {
   text-align: center;
   position: relative;
-  padding-top: 24px;
+  padding-top: 48px;
 }
 .testimonials .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #CE7575;

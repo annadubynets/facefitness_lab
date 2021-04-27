@@ -267,16 +267,13 @@
       height: 12px;
       border: 2px solid $pink-color;
       border-radius: 50%;
-      display: none;
+      display: inline-block;
       margin: 0 8px;
-      @include max-screen(992px) {
-        display: inline-block;
-      }
     }
     .owl-dots {
       text-align: center;
       position: relative;
-      padding-top: 24px;
+      padding-top: 48px;
     }
     .owl-dots .owl-dot.active span {
       background-color: $pink-color;
