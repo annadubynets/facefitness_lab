@@ -32,7 +32,7 @@
 
 .navbar {
   padding-top: 30px;
-  margin-bottom: 146px;
+  margin-bottom: 120px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -87,6 +87,10 @@
   span {
     font-size: 16px;
     color: $white-color;
+  }
+  &:hover, &:active, &:focus {
+    background: linear-gradient(89.07deg, #E19999 4.86%, rgba(206, 117, 117, 0) 92.95%), #CE7575;
+    box-shadow: 0 4px 10px 0 rgba(226, 142, 127, 0.75);
   }
 }
 
@@ -152,8 +156,8 @@
   background: url("../images/about_bg.jpg") no-repeat top left/ 36% 85%;
   .about-desc {
     font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 26px;
     color: $black-color;
   }
 
@@ -314,6 +318,10 @@
   border-radius: 16px;
   padding: 30px 60px 60px 60px;
   border: none;
+}
+
+.modal-xl {
+  max-width: 1400px;
 }
 
 .modal-body {
