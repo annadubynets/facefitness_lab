@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08372c68-dc4f-4a6a-bb32-4b6c045f11dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/base/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/base/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,7 @@
       <workItem from="1619115056511" duration="2411000" />
       <workItem from="1619118502493" duration="720000" />
       <workItem from="1619170542594" duration="8235000" />
-      <workItem from="1619530742295" duration="4977000" />
+      <workItem from="1619530742295" duration="5437000" />
     </task>
     <servers />
   </component>
