@@ -169,6 +169,12 @@ h4 {
   box-shadow: 0 4px 10px 0 rgba(226, 142, 127, 0.75);
 }
 
+@media (max-width: 1200px) {
+  .courses .card .card-body .card-text {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 42px;
@@ -278,7 +284,7 @@ h4 {
   }
   .courses .card .card-body .card-text {
     font-size: 14px !important;
-    line-height: 22px !important;
+    line-height: 18px !important;
   }
   .courses .card .card-footer {
     width: 100% !important;
@@ -523,7 +529,7 @@ h4 {
   background-color: #ECE1D5;
 }
 .courses .card-body {
-  padding: 40px 30px;
+  padding: 30px;
 }
 .courses .card-body .card-title {
   font-size: 24px;
