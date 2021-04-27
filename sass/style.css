@@ -278,7 +278,7 @@ h4 {
   }
   .courses .card .card-body .card-text {
     font-size: 14px !important;
-    line-height: 26px !important;
+    line-height: 22px !important;
   }
   .courses .card .card-footer {
     width: 100% !important;
@@ -531,7 +531,7 @@ h4 {
 }
 .courses .card-body .card-text {
   font-size: 16px;
-  line-height: 28px;
+  line-height: 24px;
 }
 .courses .card-title {
   margin-bottom: 18px;
